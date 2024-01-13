@@ -11,8 +11,8 @@ class LamaRemover:
             "required": {
                 "images": ("IMAGE",),
                 "masks": ("MASK",),
-                "mask_threshold":("INT", {"default": 250, "min": 0, "max": 255, "step": 1}),
-                "gaussblur_radius": ("INT", {"default": 8, "min": 0, "max": 20, "step": 1}),
+                "mask_threshold":("INT", {"default": 250, "min": 0, "max": 255, "step": 1, "display": "slider"}),
+                "gaussblur_radius": ("INT", {"default": 8, "min": 0, "max": 20, "step": 1, "display": "slider"}),
                 "invert_mask": ("BOOLEAN", {"default": False}),
             },
         }
@@ -90,8 +90,8 @@ class LamaRemoverIMG:
             "required": {
                 "images": ("IMAGE",),
                 "masks": ("IMAGE",),
-                "mask_threshold":("INT", {"default": 250, "min": 0, "max": 255, "step": 1}),
-                "gaussblur_radius": ("INT", {"default": 8, "min": 0, "max": 20, "step": 1}),
+                "mask_threshold":("INT", {"default": 250, "min": 0, "max": 255, "step": 1, "display": "slider"}),
+                "gaussblur_radius": ("INT", {"default": 8, "min": 0, "max": 20, "step": 1, "display": "slider"}),
                 "invert_mask": ("BOOLEAN", {"default": False}),
             },
         }
