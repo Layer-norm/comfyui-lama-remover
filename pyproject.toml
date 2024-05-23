@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-lama-remover"
+description = "A very simple ComfyUI node to remove item with mask."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["Pillow"]
+
+[project.urls]
+Repository = "https://github.com/Layer-norm/comfyui-lama-remover"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-lama-remover"
+Icon = ""
