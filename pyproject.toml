@@ -10,6 +10,6 @@ Repository = "https://github.com/Layer-norm/comfyui-lama-remover"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "layer-norm"
 DisplayName = "comfyui-lama-remover"
 Icon = ""
