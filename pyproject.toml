@@ -2,7 +2,7 @@
 name = "comfyui-lama-remover"
 description = "A very simple ComfyUI node to remove item with mask."
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 dependencies = ["Pillow"]
 
 [project.urls]
